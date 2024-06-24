@@ -1,0 +1,4 @@
+<config>
+    <filepath_serialnumbers>serialnumbers.json</filepath_serialnumbers>
+    <filepath_customerexcel></filepath_customerexcel>
+</config>
