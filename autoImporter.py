@@ -11,7 +11,7 @@ def writeLog(errorlist):
         if len(errorlist) > 0:
             for error in errorlist:
                 print(error)
-            input("press any Button to close")
+            input("press ENTER to close")
         else:
             pass
 
