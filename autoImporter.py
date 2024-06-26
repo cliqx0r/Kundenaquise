@@ -8,8 +8,10 @@ def writeLog(errorlist):
             with open("logfile.txt", "w") as logfile:
                 for error in errorlist:
                     logfile.write(error)
-                os.startfile(f'logfile.txt')
-                exit(0)
+        if len(errorlist) > 0:
+            for error in errorlist:
+                print(error)
+            input("press any Button to close")
         else:
             pass
 
